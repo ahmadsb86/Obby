@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Haverford Prefrosh Summer/todo.md",
+                "file": "Haverford Prefrosh Summer/Todo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "todo"
+              "title": "Todo"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Haverford Prefrosh Summer/todo.md",
+                "file": "Haverford Prefrosh Summer/Todo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "todo"
+              "title": "Todo"
             }
           }
         ],
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Haverford Prefrosh Summer/todo.md",
+                "file": "Haverford Prefrosh Summer/Todo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -239,7 +239,7 @@
   "lastOpenFiles": [
     "Haverford Prefrosh Summer/hfq v2.md",
     "Haverford Prefrosh Summer/Summer Shenanigins.md",
-    "Haverford Prefrosh Summer/todo.md",
+    "Haverford Prefrosh Summer/Todo.md",
     "Algorithmica/4. Compilation.md",
     "Algorithmica/3. Instruction Level Pipelining.md",
     "Ipad Sync/keep.md",
