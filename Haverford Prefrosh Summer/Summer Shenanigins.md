@@ -22,6 +22,3 @@ What we must do right now:
 - [ ] Reply to CS placement
 - [ ] Check emails
 - [ ] Email Amazon
-
-
-dsasd
