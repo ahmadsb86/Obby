@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithmica/4. Compilation.md",
+                "file": "Algorithmica/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Compilation"
+              "title": "Untitled"
             }
           }
         ],
@@ -221,8 +221,8 @@
   },
   "active": "91269411bb663ec7",
   "lastOpenFiles": [
-    "Algorithmica/Untitled.md",
     "Algorithmica/4. Compilation.md",
+    "Algorithmica/Untitled.md",
     "Random/ponqi.md",
     "Haverford Prefrosh Summer/todo.md",
     "Random",
