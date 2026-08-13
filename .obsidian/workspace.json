@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todo.md",
+                "file": "Algorithmica/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -212,19 +212,9 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
-          },
-          {
-            "id": "5ebfe0025c79e6df",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
