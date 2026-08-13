@@ -2,7 +2,7 @@
   "remoteURL": "https://github.com/ahmadsb86/Obby.git",
   "gitLocation": "",
   "syncinterval": 0,
-  "isSyncOnLoad": false,
+  "isSyncOnLoad": true,
   "checkStatusOnLoad": true,
   "noticeLevel": "ALL",
   "showSyncSuccessNotice": true
