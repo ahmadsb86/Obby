@@ -1,1 +1,4 @@
 - Call Dadoo
+- cheezus or whatever it was look it up rq
+- friday meeting with isrp cohort
+- 
