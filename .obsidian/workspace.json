@@ -126,7 +126,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "method",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,8 +150,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -263,7 +262,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ea0c8ab7a54e8405",
+  "active": "4a53b9b6ce85a9b1",
   "lastOpenFiles": [
     "Algorithmica/3. Instruction Level Parallelism.md",
     "Algorithmica/2. Computer Architecture.md",
