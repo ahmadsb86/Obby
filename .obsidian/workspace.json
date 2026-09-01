@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POLSCI 171/08-31.md",
+                "file": "todo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08-31"
+              "title": "todo"
             }
           }
         ],
@@ -304,10 +304,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4a53b9b6ce85a9b1",
+  "active": "c97a5d0d5b159b9a",
   "lastOpenFiles": [
-    "todo.md",
     "POLSCI 171/08-31.md",
+    "todo.md",
     "POLSCI 171",
     "6.851/Memory Hiearchy Models.md",
     "6.851/Memory Hierarchy Models 2.md",
