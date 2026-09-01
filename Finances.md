@@ -11,3 +11,8 @@
 | 08/30 | 21.18  | GIFT                                                                             |
 | 09/1  | 55.55  | notebooks, laundry det, trashbags, groceries                                     |
 
+**Total non-gift expenses (08/21–09/01, excludes both GIFT lines): $166.32** — at this rate (~$13.86/day), estimated monthly spend: **~$416/month**
+
+## Main Monthly Expenses
+Cereal/Milk (eaten once a day), junk food snack (once every other day), 
+Tide detergent, trash bags, paper towels, shampoo/conditioner, toothpaste, 
