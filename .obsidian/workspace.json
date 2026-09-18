@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo.md",
+                "file": "chem fuckass pre notebook shit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "todo"
+              "title": "chem fuckass pre notebook shit"
             }
           }
         ],
@@ -292,9 +292,9 @@
   },
   "active": "ecafb68ca7b42dd1",
   "lastOpenFiles": [
+    "todo.md",
     "Untitled 1.md",
     "Algorithmica/5. Profiling.md",
-    "todo.md",
     "claude skills/thermo nuclear code quality review.md",
     "claude skills/improve codebase archinecture.md",
     "claude skills",
