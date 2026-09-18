@@ -27,26 +27,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithmica/4. Compilation.md",
+                "file": "HW 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Compilation"
+              "title": "HW 1"
             }
           },
           {
             "id": "55f1307c9b534dfa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithmica/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "New tab"
             }
           },
           {
@@ -109,14 +105,10 @@
             "id": "6a4cd76f54d9d78a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "todo.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "todo"
+              "title": "New tab"
             }
           },
           {
@@ -153,16 +145,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Finances.md",
+                "file": "TODO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Finances"
+              "title": "TODO"
+            }
+          },
+          {
+            "id": "03e1962123caa71a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 120/Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
+          },
+          {
+            "id": "9b5ef53b7bc5bdcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 120/Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Notes"
+            }
+          },
+          {
+            "id": "504d1cc1c4aedc81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "POLSCI 171/Discourse on Origin of Inequality.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Discourse on Origin of Inequality"
+            }
+          },
+          {
+            "id": "45f560c99d791fb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "POLSCI 171/Social Contract.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Social Contract"
+            }
+          },
+          {
+            "id": "2e680bdd1d90065e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 120/Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Notes"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -224,7 +286,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "43239c9e4e8d3059",
@@ -329,42 +391,55 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "github-sync:Sync with Remote": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "cimu-print:Print note": false
     }
   },
-  "active": "e85c791b75f0325d",
+  "active": "2e680bdd1d90065e",
   "lastOpenFiles": [
-    "chem fuckass pre notebook shit.md",
-    "Finances.md",
+    "POLSCI 171/Social Contract.md",
+    "POLSCI 171/Discourse on Origin of Inequality.md",
+    "MATH 120/Notes.md",
     "TODO.md",
-    "POLSCI 171/08-31.md",
+    "POLSCI 171/The right to be hostile.md",
+    "Random/ponqi.md",
+    "8. External Memory.md",
+    "Basic Political Writing - Rousseau.md",
+    "Finances.md",
+    "chem fuckass pre notebook shit.md",
+    "Pasted image 20260914114104.png",
+    "MATH120 HW1.md",
+    "Screenshot 2026-09-10 at 11.44.54 PM.png",
+    "Screenshot 2026-09-10 at 11.39.17 PM.png",
+    "Screenshot 2026-09-10 at 11.27.24 PM.png",
+    "6.851/Non-adaptive Pred Lower Bound.md",
+    "6.851/Persistant Data Structures.md",
+    "HW 1.md",
+    "HW 1.pdf",
+    "Algorithmica/4. Compilation.md",
+    "Haverford Prefrosh Summer/Courses.md",
+    "Algorithmica/2. Computer Architecture.md",
+    "claude skills/thermo nuclear code quality review.md",
+    "Untitled.canvas",
+    "CS 231",
+    "MATH 120",
+    "Untitled.md",
+    "Nichomachian Ethics.md",
+    "PHL 107",
+    "The Right to Be Hostile.pdf",
     "POLSCI 171",
     "6.851/Memory Hiearchy Models.md",
     "6.851/Memory Hierarchy Models 2.md",
-    "claude skills/thermo nuclear code quality review.md",
     "claude skills/improve codebase archinecture.md",
-    "Algorithmica/2. Computer Architecture.md",
     "claude skills",
     "Algorithmica/3. Instruction Level Parallelism.md",
     "Algorithmica/3. Instruction Level Pipelining.md",
-    "Algorithmica/4. Compilation.md",
     "Algorithmica/5. Profiling.md",
-    "8. External Memory.md",
-    "Haverford Prefrosh Summer/Courses.md",
-    "Haverford Prefrosh Summer/todo.md",
-    "Haverford Prefrosh Summer/Summer Shenanigins.md",
     "Pasted image 20260812223150.png",
     "Ipad Sync/test-2 4.jpg",
     "Ipad Sync/test-2 4 [2026-08-12 22.25.07].jpg",
     "&-10.jpg",
-    "Ipad Sync/keep.md",
     "Ipad Sync",
-    "Algorithmica/Untitled.md",
-    "Summer Shenanigins.md",
-    "Random/ponqi.md",
-    "Random",
-    "Haverford Prefrosh Summer/Haverford.md",
-    "im trying something new.md",
-    "good morning.md"
+    "Random"
   ]
 }

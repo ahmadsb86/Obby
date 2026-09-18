@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "pluginId": "cimu-print",
+  "pluginVersion": "1.0.5",
+  "vaultPath": "/Users/ahmad/Documents/Obby",
+  "host": "127.0.0.1",
+  "port": 49153,
+  "token": "2bfff12c39c1173fb9f8d7d19674fd1f27f122fc1c48c11f06fa60f42a64684a",
+  "pid": 879,
+  "startedAt": "2026-09-18T11:24:01.534Z"
+}
