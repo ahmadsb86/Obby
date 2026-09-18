@@ -104,9 +104,23 @@
               "icon": "lucide-file",
               "title": "5. Profiling"
             }
+          },
+          {
+            "id": "ecafb68ca7b42dd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "todo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "todo"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -276,18 +290,26 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "aafe9f348af72500",
+  "active": "ecafb68ca7b42dd1",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "Algorithmica/5. Profiling.md",
+    "todo.md",
+    "claude skills/thermo nuclear code quality review.md",
+    "claude skills/improve codebase archinecture.md",
+    "claude skills",
+    "chem fuckass pre notebook shit.md",
+    "POLSCI 171/08-31.md",
+    "POLSCI 171",
+    "Finances.md",
     "Untitled.md",
     "8. External Memory.md",
-    "Algorithmica/5. Profiling.md",
     "Algorithmica/4. Compilation.md",
     "Algorithmica/2. Computer Architecture.md",
     "Haverford Prefrosh Summer/todo.md",
     "Haverford Prefrosh Summer/Haverford advising questionaire.md",
     "Haverford Prefrosh Summer/hfq v2.md",
     "Haverford Prefrosh Summer/Todo.md",
-    "Untitled 1.md",
     "&-10.jpg",
     "Untitled 2.md",
     "Pasted image 20260812223150.png",
@@ -303,7 +325,6 @@
     "Haverford Prefrosh Summer/Courses.md",
     "good morning.md",
     "Haverford Prefrosh Summer/Haverford.md",
-    "new life.md",
-    "im trying something new.md"
+    "new life.md"
   ]
 }
