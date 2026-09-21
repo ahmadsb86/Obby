@@ -222,9 +222,23 @@
               "icon": "lucide-file",
               "title": "Notes"
             }
+          },
+          {
+            "id": "b3c7a9c091815d98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 3"
+            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -395,8 +409,10 @@
       "cimu-print:Print note": false
     }
   },
-  "active": "2e680bdd1d90065e",
+  "active": "b3c7a9c091815d98",
   "lastOpenFiles": [
+    "Untitled 3.md",
+    "MATH 120/Notes.md",
     "POLSCI 171/Social Contract.md",
     "todo.md",
     "Untitled 1.md",
@@ -404,7 +420,6 @@
     "TODO.md",
     "Screenshot 2026-09-10 at 11.44.54 PM.png",
     "Untitled 2.md",
-    "MATH 120/Notes.md",
     "POLSCI 171/Discourse on Origin of Inequality.md",
     "POLSCI 171/The right to be hostile.md",
     "Random/ponqi.md",
