@@ -1,4 +1,5 @@
 {
   "baseFontSize": 20,
-  "textFontFamily": "Times"
+  "textFontFamily": "Times",
+  "cssTheme": "Primary"
 }

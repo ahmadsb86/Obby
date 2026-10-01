@@ -14,7 +14,6 @@
 
 Spring will end up being physics 106 + writing writing seminar + 2 others
 
-
 # 3/2 Reqs
 
 To apply to the Caltech 3/2 program, applicants must have completed the following requirements at Haverford:
