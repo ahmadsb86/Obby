@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7c116bbb294cf910",
+        "id": "08cc1fb31f62e782",
         "type": "tabs",
         "children": [
           {
-            "id": "955a57125bd264cb",
+            "id": "065630c39d3a3e70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Haverford Prefrosh Summer/hfq v2.md",
+                "file": "MATH 120/Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hfq v2"
+              "title": "Notes"
             }
           }
         ]
@@ -191,16 +191,18 @@
       "cimu-print:Print note": false
     }
   },
-  "active": "955a57125bd264cb",
+  "active": "065630c39d3a3e70",
   "lastOpenFiles": [
     "Haverford Prefrosh Summer/hfq v2.md",
+    "MATH 120/Notes.md",
+    "report.md",
+    "POLSCI 171/Paper 1.md",
     "Haverford Prefrosh Summer/Courses.md",
     "HW 1.md",
     "Algorithmica/4. Compilation.md",
     "Algorithmica/2. Computer Architecture.md",
     "claude skills/thermo nuclear code quality review.md",
     "Finances.md",
-    "MATH 120/Notes.md",
     "POLSCI 171/Discourse on Origin of Inequality.md",
     "POLSCI 171/Social Contract.md",
     "POLSCI 171/David - SC Book 2 Formatted.md",
@@ -229,8 +231,6 @@
     "Untitled.canvas",
     "TODO.md",
     "Untitled 2.md",
-    "POLSCI 171/The right to be hostile.md",
-    "Random/ponqi.md",
     "CS 231",
     "MATH 120",
     "PHL 107",

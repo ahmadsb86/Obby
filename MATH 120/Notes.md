@@ -67,4 +67,5 @@ We first create a dependency tree and observe all paths from the variable we are
 $$
 	\frac{\partial f}{\partial t} = \frac{\partial f}{\partial x} \cdot \frac{\partial x}{\partial t} + \frac{\partial f}{\partial y} \cdot \frac{\partial y}{\partial t}
 $$
-das
+
+# Project 1 Launch

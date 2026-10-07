@@ -8,5 +8,11 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 40
-  }
+  },
+  "spellcheck": true,
+  "spellcheckDictionary": [
+    "Lundgren",
+    "Artifactory",
+    "Artifactory"
+  ]
 }
