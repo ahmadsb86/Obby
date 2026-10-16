@@ -7,12 +7,15 @@
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 40
+    "downscalePercent": 70
   },
   "spellcheck": true,
   "spellcheckDictionary": [
     "Lundgren",
     "Artifactory",
     "Artifactory"
-  ]
+  ],
+  "attachmentFolderPath": "/!attachments",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current"
 }
