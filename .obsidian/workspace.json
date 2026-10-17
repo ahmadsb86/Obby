@@ -41,16 +41,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Planning/Fall Break Planning.md",
+                "file": "Planning/NVIDIA Ignite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fall Break Planning"
+              "title": "NVIDIA Ignite"
+            }
+          },
+          {
+            "id": "5adbb2efaab0a6e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Planning/Drafting thoughts on AI and my academic trajectory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Drafting thoughts on AI and my academic trajectory"
+            }
+          },
+          {
+            "id": "b866a90adfe8317f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HNSW/HNSW.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HNSW"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -220,41 +248,46 @@
       "cimu-print:Print note": false
     }
   },
-  "active": "73ccb1ebd6ceca5a",
+  "active": "b866a90adfe8317f",
   "lastOpenFiles": [
+    "Algorithmica/3. Instruction Level Parallelism.md",
+    "Algorithmica/2. Computer Architecture.md",
+    "Algorithmica/4. Compilation.md",
+    "Algorithmica/5. Profiling.md",
+    "Algorithmica/8. External Memory.md",
     "Planning/To-do.md",
-    "Planning/Fall Break Planning.md",
     "Planning/NVIDIA Ignite.md",
-    "Planning",
-    "Fall 2026/CS 231/HW 3.md",
+    "Planning/Fall Break Planning.md",
+    "Planning/Drafting thoughts on AI and my academic trajectory.md",
+    "Planning/Internship Tracker.md",
+    "Planning/Internship Tracker.base",
+    "Fall 2026/MH HW/Stats 2.md",
+    "Fall 2026/MH HW/Stats 1.md",
+    "Fall 2026/CHEM 111",
+    "Fall 2026/MH HW",
+    "Finances.md",
+    "todo.md",
     "URTC Notes.md",
-    "Fall 2026/CS 231/MHC Pset.md",
-    "Fall 2026/CS 231/HW 2.md",
-    "Fall 2026/CS 231/HW 1.md",
-    "Fall 2026/MATH 120/Project 1.md",
-    "Fall 2026/MATH 120/HW 1.md",
-    "Fall 2026/POLSCI 171/Nichomachian Ethics.md",
+    "Planning/Internship Plan 2026-27.md",
+    "Planning/Internships/Arkansas Physics REU.md",
+    "Planning/Internships/NVIDIA Ignite internship.md",
+    "Planning/Internships/Qiskit Global Summer School.md",
+    "Planning/Internships/Citadel Datathon - Terminal, Jane Street puzzles.md",
+    "Planning/Internships/Ramp internships.md",
+    "Planning/Internships/MLH Fellowship.md",
+    "Planning/Internships/Google Summer of Code.md",
+    "Planning/Internships/Bloomberg First Year Insights.md",
+    "Planning/Internships/UberSTAR.md",
+    "Planning/Internships/Discover Citadel.md",
+    "Planning/Internships",
+    "!attachments/Internship Deadlines.png",
+    "Planning",
     "Fall 2026",
     "Fall 2026/CS 231/HW 1.pdf",
-    "Finances.md",
-    "Fall 2026/chem fuckass pre notebook shit.md",
     "!attachments/Pasted image 20260914114104.png",
     "Fall 2026/POLSCI 171/The Right to Be Hostile.pdf",
     "!attachments",
-    "Untitled 2.md",
-    "Untitled 1.md",
     "Untitled.canvas",
-    "Untitled 3.md",
-    "todo.md",
-    "Fall 2026/MATH 120/HW 2.md",
-    "Algorithmica/8. External Memory.md",
-    "Random/ponqi.md",
-    "Fall 2026/MATH 120/Notes.md",
-    "Haverford Prefrosh Summer/hfq v2.md",
-    "Fall 2026/POLSCI 171/Paper 1.md",
-    "Haverford Prefrosh Summer/Courses.md",
-    "Algorithmica/4. Compilation.md",
-    "Algorithmica/2. Computer Architecture.md",
     "!attachments/Pasted image 20260924215755.png",
     "!attachments/Pasted image 20260924215518.png",
     "!attachments/Pasted image 20260924215419.png",
@@ -263,11 +296,6 @@
     "!attachments/Screenshot 2026-09-24 at 9.53.18 PM.png",
     "!attachments/Pasted image 20260924214703.png",
     "!attachments/Pasted image 20260924211423.png",
-    "!attachments/Pasted image 20260924205610.png",
-    "Fall 2026/CS 231",
-    "Fall 2026/MATH 120",
-    "PHL 107",
-    "Fall 2026/POLSCI 171",
-    "claude skills"
+    "Fall 2026/CS 231"
   ]
 }
