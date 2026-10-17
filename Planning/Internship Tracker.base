@@ -1,0 +1,59 @@
+filters:
+  and:
+    - file.inFolder("Planning/Internships")
+properties:
+  file.name:
+    displayName: Program
+  note.when:
+    displayName: Deadline
+  note.priority:
+    displayName: Priority
+  note.status:
+    displayName: Status
+  note.track:
+    displayName: Track
+  note.deadline:
+    displayName: Sort date
+views:
+  - type: table
+    name: Upcoming
+    filters:
+      or:
+        - note.status == "Not started"
+        - note.status == "Preparing"
+    order:
+      - file.name
+      - when
+      - priority
+      - status
+      - track
+      - deadline
+    sort:
+      - property: deadline
+        direction: ASC
+  - type: table
+    name: In progress or done
+    filters:
+      and:
+        - note.status != "Not started"
+        - note.status != "Preparing"
+    order:
+      - file.name
+      - status
+      - when
+      - track
+    sort:
+      - property: deadline
+        direction: ASC
+  - type: table
+    name: All
+    order:
+      - file.name
+      - when
+      - priority
+      - status
+      - track
+      - deadline
+    sort:
+      - property: deadline
+        direction: ASC

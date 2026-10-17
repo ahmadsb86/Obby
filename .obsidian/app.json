@@ -1,5 +1,23 @@
 {
   "showInlineTitle": false,
   "readableLineLength": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 70
+  },
+  "spellcheck": true,
+  "spellcheckDictionary": [
+    "Lundgren",
+    "Artifactory",
+    "Artifactory",
+    "Phy",
+    "Galliar"
+  ],
+  "attachmentFolderPath": "/!attachments",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current"
 }

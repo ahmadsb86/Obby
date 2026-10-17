@@ -1,0 +1,5 @@
+
+1. This is an inductive argument, and more specifically an inductive prediction. This is because it uses an observation on a sample to predict something about a singular day outside that sample. 
+2. Abductive. This is because it outlines a reasonable explanation for the observations. We are inferring Miss Scarlet killed Prof Plum (what we don't see) from P1, P2, P3, P4, and P5 (what we do see).
+3. Inductive. Specifically an inductive prediction. It uses an observation on a sample (the 3 flips) to predict something about a singular flip outside that sample. 
+4. An inductive argument could be that it rains every day in Mount Holyoke because it has rained the past 5 days. This is an inductive generalization because it makes a general claim about the weather every day based on an observation during a 5-day sample. An abductive argument could be that the rain made the grass wet because the grass was wet today and it rained yesterday. This is abductive because it offers a reasonable explanation (the rain made the grass wet) for the observations (the grass was wet today and it rained yesterday). 
