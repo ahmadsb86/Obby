@@ -25,5 +25,5 @@ Since updating in OFM shifts at most $\log ^{2} N$ elements, we need to update  
 
 Since parent access free, analysis is effectively linear scan over last layer in-interval $b$-sized subtrees which is $O\left( \frac{\log ^{2} N}{B} \right)$
 
-Root nodes of second last layer $b$-sized subtrees have $a$ nodes beneath so our interval falls under $< \frac{\log ^{2}N}{B}$ root nodes .  $O\left( \frac{\log ^{2} N}{B} \right)$ to update the entire subtree that spans over those root notes. Then $O(\log_{B+1}N)$ to update the path from the root node of that subtree to the root of tree.
+Root nodes of second last layer $b$-sized subtrees have $a$ nodes beneath so our interval falls under $< \frac{\log ^{2}N}{B}$ root nodes.  $O\left( \frac{\log ^{2} N}{B} \right)$ to update the entire subtree that spans over those root notes. Then $O(\log_{B+1}N)$ to update the path from the root node of that subtree to the root of tree.
 

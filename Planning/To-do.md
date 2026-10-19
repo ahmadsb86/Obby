@@ -4,12 +4,13 @@
 - [ ] Connect with haverford alumni at quant trading companies to prepare for summer internship applications
 - [ ] Email max's BNL mentor
 - [ ] Reply to Professor Jiang
-- [ ] Reply to Drew
+- [x] Reply to Drew
 - [ ] Fix the resume
 - [ ] Apply to NVIDIA Ignite (confirm close date on NVIDIA's site) 📅 2026-10-18
 - [ ] Ask Haverford's CS chair whether there's an ICPC team for the Nov 7 regional at Swarthmore. Registration closes Oct 23, 2026
 
 **Non-Academic To-do:**
+- [ ] SEND THE PROOF OF PAYMENTS FOR CONFERENCE MINIGRANT
 - [ ] Get costco thermal for Arham and I
 - [ ] Passport Renew
 - [ ] Get Driver's Liscence
