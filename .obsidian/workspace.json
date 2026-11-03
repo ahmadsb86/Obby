@@ -4,11 +4,137 @@
     "type": "split",
     "children": [
       {
-        "id": "7274c9305c8e7f0f",
+        "id": "2614ea472e841e55",
         "type": "tabs",
         "children": [
           {
-            "id": "83fea6fa802703f4",
+            "id": "4c216410484c98df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haverford Prefrosh Summer/Todo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Todo"
+            }
+          },
+          {
+            "id": "7016a8df7bf65910",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithmica/4. Compilation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Compilation"
+            }
+          },
+          {
+            "id": "91269411bb663ec7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithmica/4. Compilation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Compilation"
+            }
+          },
+          {
+            "id": "d4101aa29b957da5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithmica/4. Compilation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Compilation"
+            }
+          },
+          {
+            "id": "66aab582fc77bcd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithmica/5. Profiling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5. Profiling"
+            }
+          },
+          {
+            "id": "75fb8cce6ba5138a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8. External Memory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8. External Memory"
+            }
+          },
+          {
+            "id": "aafe9f348af72500",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithmica/5. Profiling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5. Profiling"
+            }
+          },
+          {
+            "id": "ecafb68ca7b42dd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blogpost.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Blogpost"
+            }
+          },
+          {
+            "id": "d6a48ccf7f9eb537",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blogpost.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Blogpost"
+            }
+          },
+          {
+            "id": "85175113b54ab9f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +146,9 @@
               "icon": "lucide-file",
               "title": "To-do"
             }
-          },
-          {
-            "id": "8bc02525ec65547f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 2"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -98,7 +210,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
     "id": "43239c9e4e8d3059",
@@ -114,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 231 HW 2.md",
+                "file": "todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +288,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithmica/Untitled.md",
+                "file": "Haverford Prefrosh Summer/Todo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,7 +297,8 @@
               "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -194,6 +307,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "cimu-print:Print note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -202,58 +316,57 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "github-sync:Sync with Remote": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "cimu-print:Print note": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8bc02525ec65547f",
+  "active": "85175113b54ab9f0",
   "lastOpenFiles": [
     "Untitled 2.md",
-    "Planning/To-do.md",
-    "Fall 2026/MATH 120/Notes.md",
-    "Fall 2026/MATH 120/HW 5.md",
-    "Fall 2026/MATH 120/HW 2.md",
+    "Planning/Meet w Drew 20-10.md",
     "Fall 2026/MATH 120/Untitled.md",
-    "Fall 2026/MATH 120/Project 1.md",
-    "6.851/Persistant Data Structures.md",
-    "Fall 2026/CS 231/HW 1.pdf",
-    "Fall 2026/CS 231/HW 2.md",
-    "Fall 2026/CS 231/HW 3.md",
+    "Fall 2026/MATH 120/HW 5.md",
     "!attachments/Screenshot 2026-10-28 at 3.42.18 PM.png",
     "!attachments/Screenshot 2026-10-28 at 3.31.58 PM.png",
     "!attachments/Screenshot 2026-10-28 at 3.14.32 PM.png",
     "!attachments/Screenshot 2026-10-28 at 2.39.00 PM.png",
-    "Planning/Drafting thoughts on AI and my academic trajectory.md",
-    "Planning/NVIDIA Ignite.md",
-    "HNSW/HNSW Frac Cascade Idea.md",
-    "HNSW/HNSW Ideas.md",
-    "HNSW/Untitled.md",
-    "Fall 2026/MATH 120/HW 1.md",
-    "6.851/Memory Hiearchy Models.md",
-    "HNSW/HNSW.md",
-    "Planning/Internship Tracker.md",
-    "todo.md",
-    "Planning/Internship Plan 2026-27.md",
-    "Planning/Fall Break Planning.md",
-    "6.851/Memory Hierarchy Models 2.md",
-    "Planning/Internship Tracker.base",
-    "Planning/Meet w Drew 20-10.md",
     "Untitled 1.md",
+    "HNSW/Untitled.md",
+    "HNSW/HNSW Ideas.md",
+    "HNSW/HNSW Frac Cascade Idea.md",
+    "Blogpost.md",
+    "Finances.md",
+    "todo.md",
     "Untitled.md",
-    "Untitled.canvas",
-    "Fall 2026/CHEM 111",
-    "Fall 2026/MH HW",
+    "URTC Notes.md",
+    "Planning/Internships/Waterloo USEQIP.md",
+    "Planning/Internships/UberSTAR.md",
+    "Planning/Internships/Two Sigma first-year SWE internship.md",
+    "Planning/Internships/TACC REU (UT Austin).md",
+    "Planning/Internships/SIG First-Year Discovery.md",
+    "Planning/Internships/Rochester Institute of Optics REU (quantum photonics).md",
+    "Planning/Internships/Ramp internships.md",
+    "Planning/Internships/Qiskit Global Summer School.md",
+    "Planning/Internships/Putnam (register via math dept).md",
+    "Planning/Internships/Penn - Ryan Marcus.md",
+    "Planning/Internships/Penn - Joe Devietti.md",
+    "Planning/Internships/Penn - Gushu Li (after QRAM sim).md",
+    "Planning/Internships/Penn - Erik Waingarten (email with HNSW results).md",
     "Planning/Internships",
-    "!attachments/Internship Deadlines.png",
+    "Planning/Internship Tracker.base",
     "Planning",
-    "Fall 2026",
-    "!attachments/Pasted image 20260914114104.png",
     "Fall 2026/POLSCI 171/The Right to Be Hostile.pdf",
-    "!attachments",
-    "!attachments/Pasted image 20260924215755.png",
-    "!attachments/Pasted image 20260924215518.png",
-    "!attachments/Pasted image 20260924215419.png",
+    "Fall 2026/CS 231/HW 1.pdf",
+    "Fall 2026/POLSCI 171",
+    "Fall 2026/MH HW",
+    "Fall 2026/MATH 120",
+    "Fall 2026/CS 231",
+    "Fall 2026/CHEM 111",
     "!attachments/Screenshot 2026-09-24 at 9.53.48 PM.png",
-    "Fall 2026/CS 231"
+    "!attachments/Screenshot 2026-09-24 at 9.53.18 PM.png",
+    "!attachments/Screenshot 2026-09-24 at 9.53.08 PM.png",
+    "!attachments/Screenshot 2026-09-10 at 11.44.54 PM.png",
+    "!attachments/Screenshot 2026-09-10 at 11.39.17 PM.png",
+    "!attachments/Screenshot 2026-09-10 at 11.27.24 PM.png",
+    "Untitled.canvas"
   ]
 }
