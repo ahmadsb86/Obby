@@ -68,4 +68,24 @@ $$
 	\frac{\partial f}{\partial t} = \frac{\partial f}{\partial x} \cdot \frac{\partial x}{\partial t} + \frac{\partial f}{\partial y} \cdot \frac{\partial y}{\partial t}
 $$
 
-# Project 1 Launch
+# Sum of Rectangles
+
+Riemann Sums are a sum of rectanges from FM. Coded like L4 (left endpoint of rect aligns w/ f(x) and 4-rect sum) or R16 (right endpoint, 16-rectange sum)
+$\forall, x L_{x} < R_{x} \iff  \text{f(x) is increasing}$
+
+# Integration
+To find distance (not disp) from signed vel function, either integrate absolute value of vel func or find the zeros of the function and take seperate integrals
+Integrating right-to-left is the same as left-to-right with opposite sign
+$$
+	\int_{a}^{b} f(x) \, dx  = -\int_{b}^{a} f(x) \, dx 
+$$
+Integration by parts formula derivation
+$$
+	\begin{align}
+	& (uv)' = u'v + uv' \\
+	& \int (uv)' = \int (u'v + uv') \\
+	& uv = \int u'v + \int uv' \\
+	& uv - \int u'v = \int uv' \\
+	& \int uv' = uv - \int u'v \\
+	\end{align}
+$$
