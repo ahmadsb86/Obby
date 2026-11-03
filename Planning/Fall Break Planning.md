@@ -16,6 +16,7 @@ Lincoln Lab when the event happens
 1. Is my target list fine?
 2. Do I answer internship application questions the same way as college app questions?
 3. Review my template?
+4. Mini-grant
 
 **Current knowledge endpoints?**
 Quantum Data Structures
