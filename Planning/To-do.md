@@ -19,14 +19,14 @@
 - [x] Math pset
 - [ ] Chem pset
 - [ ] Chem mid-term prep
-- [ ] Give twisties to Emma
-- [ ] Get Arham's thermal
+- [x] Give twisties to Emma
+- [x] Get Arham's thermal
 - [ ] Arham's laptop repair
-- [ ] Get driver's license
+- [x] Get driver's license
 - [ ] Get winter jacket
-- [ ] CS mid-term Friday
-- [ ] Work on Mike's initial paper and email about thursday meeting
-- [ ] buy smth for the weekend
+- [x] CS mid-term Friday
+- [x] Work on Mike's initial paper and email about thursday meeting
+- [x] buy smth for the weekend
 - [ ] gift
 - [ ] Haverford Quantum Group
 
