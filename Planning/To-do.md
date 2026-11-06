@@ -1,4 +1,6 @@
- TODO**
+
+ 
+ **TODO**
 - [x] Chem quiz tomorrow
 - [x] EMAIL Dr. Jean Galliar to meet again
 - [x] Email Matt lucker
