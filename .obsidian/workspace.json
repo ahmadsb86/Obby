@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2026/MATH 120/HW 5.md",
+                "file": "Fall 2026/CS 231/HW 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HW 5"
+              "title": "HW 1"
+            }
+          },
+          {
+            "id": "fa758f30f467dd5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fall 2026/CS 231/HW 4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HW 4"
             }
           },
           {
@@ -47,6 +61,20 @@
               },
               "icon": "lucide-file",
               "title": "HW 6"
+            }
+          },
+          {
+            "id": "214204ebbb536565",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Planning/Internship Plan 2026-27.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Internship Plan 2026-27"
             }
           }
         ],
@@ -220,17 +248,24 @@
       "cimu-print:Print note": false
     }
   },
-  "active": "5741d5da4a4c083f",
+  "active": "fa758f30f467dd5a",
   "lastOpenFiles": [
+    "Fall 2026/CS 231/HW 3.md",
+    "Fall 2026/CS 231/HW 1.md",
+    "Fall 2026/MATH 120/HW 6.md",
+    "Planning/Internship Plan 2026-27.md",
+    "Fall 2026/CS 231/HW 4.md",
+    "Fall 2026/MATH 120/HW 5.md",
+    "Planning/Untitled 1.md",
+    "Planning/To-do.md",
+    "Planning/Internship Tracker.base",
+    "Untitled 4.md",
     "!attachments/Pasted image 20261105232754.png",
     "!attachments/Pasted image 20261105232020.png",
     "!attachments/Pasted image 20261105231824.png",
     "Ipad Sync/test [2026-11-05 23.16.37].png",
     "!attachments/;test.png",
-    "Fall 2026/MATH 120/HW 5.md",
-    "Fall 2026/MATH 120/HW 6.md",
     "Planning/Lock In.md",
-    "Planning/To-do.md",
     "Planning/Fall Break Planning.md",
     "Planning/Stats 5.md",
     "Planning/Untitled.md",
@@ -243,7 +278,6 @@
     "6.851/Persistant Data Structures.md",
     "Fall 2026/CS 231/HW 1.pdf",
     "Fall 2026/CS 231/HW 2.md",
-    "Fall 2026/CS 231/HW 3.md",
     "!attachments/Screenshot 2026-10-28 at 3.42.18 PM.png",
     "!attachments/Screenshot 2026-10-28 at 3.31.58 PM.png",
     "!attachments/Screenshot 2026-10-28 at 3.14.32 PM.png",
@@ -253,11 +287,6 @@
     "HNSW/HNSW Frac Cascade Idea.md",
     "HNSW/HNSW Ideas.md",
     "HNSW/Untitled.md",
-    "Fall 2026/MATH 120/HW 1.md",
-    "6.851/Memory Hiearchy Models.md",
-    "HNSW/HNSW.md",
-    "Planning/Internship Tracker.md",
-    "Planning/Internship Tracker.base",
     "Untitled.canvas",
     "Fall 2026/CHEM 111",
     "Fall 2026/MH HW",
@@ -265,7 +294,6 @@
     "!attachments/Internship Deadlines.png",
     "Planning",
     "Fall 2026",
-    "!attachments/Pasted image 20260914114104.png",
     "Fall 2026/POLSCI 171/The Right to Be Hostile.pdf",
     "!attachments",
     "Fall 2026/CS 231"
