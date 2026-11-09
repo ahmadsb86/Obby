@@ -89,3 +89,12 @@ $$
 	& \int uv' = uv - \int u'v \\
 	\end{align}
 $$
+# Iterative Integrals
+$$
+	\int_{0}^{2} \int_{0}^{2} \left( 4-\frac{x^{2}}{4} - \frac{y^{2}}{4} \right) \, dy  \, dx 
+$$
+To solve something an iterated integral, first do the inside integral. When the integral has $dy$ in it, we treat $x$ as a constant ("partial integration"). 
+Integral w.r.t dy and dx is a volume.
+Swapping the outer and inner integral retains the same value (because vol is same) but one route might be easier or harder
+Sometimes one route can be computable, not the other
+To find

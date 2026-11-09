@@ -4,15 +4,8 @@
   "pluginVersion": "1.0.5",
   "vaultPath": "/Users/ahmad/Documents/Obby",
   "host": "127.0.0.1",
-<<<<<<< HEAD
-  "port": 49430,
-  "token": "348d67d80041de90513332e80dff8689211ec3e577647f51799cdea9b181fafd",
-  "pid": 7198,
-  "startedAt": "2026-11-06T18:53:12.384Z"
-=======
-  "port": 49968,
-  "token": "ccdbaa9813e035ca18e59992b5ea81fff9cce157dcb01a8a74f757a8d074f4d3",
-  "pid": 3052,
-  "startedAt": "2026-11-05T23:57:47.844Z"
->>>>>>> 3fe60c4273824badb9b1b8e375b3604a9fdc51d2
+  "port": 51411,
+  "token": "728f969d6f117c4da6999c2929ae2e94c6fd290794b65b2b413e376bfb8d24f8",
+  "pid": 4973,
+  "startedAt": "2026-11-09T16:31:19.692Z"
 }
