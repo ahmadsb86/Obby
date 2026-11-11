@@ -82,3 +82,38 @@ $$
 The numerical result of the integral was found by plugging in the whole iterated integral into Desmos.
 
 # Problem 3
+
+Essentially, the problem asks us to take the integral of the surface $z=y$ over the area between  $y=a^{2} - x^{2}$ and $y=0$. This integral is easier to set up if we start constructing an inner integral for a constant value of $x$. We know the integral must sweep from $y=0$ to $y=a^{2}-x^{2}$ for any value of $x$. Therefore, the inner integral must look like
+$$
+	\int_{0}^{a^{2}-x^{2}} (y) \, dy 
+$$
+The outer integral should just sweep the values of $x$ between the two roots of $a^{2}-x^{2}$, because those two points would bound the sides of the wedge. We can find these roots algebraiclly.
+$$
+\begin{align}
+ & a^{2}-x^{2} = 0\\
+ & x ^{2} = a^{2} \\
+ & x = \pm a
+\end{align}
+$$
+Hence, the outer integral should have bounds $a, -a$. Finally, we have
+$$
+	\int_{-a}^{a} \int_{0}^{a^{2}-x^{2}} (y) \, dy  \, dx
+$$
+To solve this, first I will compute the inner integral keeping $x$ as constant
+$$
+\begin{align}
+& \int_{0}^{a^{2}-x^{2}} y \, dy  \\
+=& \left[ \frac{y^{2}}{2} \right]_{0}^{a^{2}-x^{2}} \\
+=&\left[ \frac{a^{2}-x^{2}}{2} \right]   - \left[ \frac{0}{2} \right]  \\
+=& \frac{a^{2}-x^{2}}{2}
+\end{align}
+$$
+Now, we can subsitute the inner integral for this expression, and solve the full iterated integral
+$$
+\begin{align}
+ &\int_{-a}^{a} \frac{a^{2}-x^{2}}{2} \, dx \\ \\
+ =&\left[  \right]_{-a}^a \\
+
+\end{align}
+	
+$$
