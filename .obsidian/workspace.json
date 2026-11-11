@@ -8,21 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "12efbc1a89c883a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fall 2026/MATH 120/HW 6.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HW 6"
-            }
-          },
-          {
-            "id": "37cedddad6f9ec12",
+            "id": "ea3b1ae0f94814ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,23 +20,8 @@
               "icon": "lucide-file",
               "title": "HW 7"
             }
-          },
-          {
-            "id": "ea3b1ae0f94814ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fall 2026/MATH 120/Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Notes"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,14 +191,16 @@
       "cimu-print:Print note": false
     }
   },
-  "active": "37cedddad6f9ec12",
+  "active": "ea3b1ae0f94814ae",
   "lastOpenFiles": [
-    "!attachments/Screenshot 2026-11-11 at 2.11.28 PM.png",
-    "Fall 2026/MATH 120/HW 6.md",
+    "!attachments/Screenshot 2026-11-11 at 2.53.06 PM.png",
+    "Fall 2026/MATH 120/Notes.md",
+    "!attachments/Screenshot 2026-11-11 at 2.39.31 PM.png",
     "Fall 2026/MATH 120/HW 7.md",
+    "Fall 2026/MATH 120/HW 6.md",
+    "!attachments/Screenshot 2026-11-11 at 2.11.28 PM.png",
     "daybound updates.md",
     "Untitled.canvas",
-    "Fall 2026/MATH 120/Notes.md",
     "Writeup for Research Paper.md",
     "URTC Notes.md",
     "Fall 2026/CHEM 111/Chem Notes (after Mass Spec).md",
@@ -259,11 +232,9 @@
     "!attachments/Screenshot 2026-10-28 at 3.42.18 PM.png",
     "!attachments/Screenshot 2026-10-28 at 3.31.58 PM.png",
     "!attachments/Screenshot 2026-10-28 at 3.14.32 PM.png",
-    "!attachments/Screenshot 2026-10-28 at 2.39.00 PM.png",
     "Fall 2026/CHEM 111",
     "Fall 2026/MH HW",
     "Planning/Internships",
-    "!attachments/Internship Deadlines.png",
     "Planning",
     "Fall 2026",
     "Fall 2026/POLSCI 171/The Right to Be Hostile.pdf",
