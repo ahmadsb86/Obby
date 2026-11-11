@@ -94,7 +94,7 @@ $$
 	\int_{0}^{2} \int_{0}^{2} \left( 4-\frac{x^{2}}{4} - \frac{y^{2}}{4} \right) \, dy  \, dx 
 $$
 To solve something an iterated integral, first do the inside integral. When the integral has $dy$ in it, we treat $x$ as a constant ("partial integration"). 
-Integral w.r.t dy and dx is a volume.
-Swapping the outer and inner integral retains the same value (because vol is same) but one route might be easier or harder
-Sometimes one route can be computable, not the other
-To find volume for a certain octet, we do an integrated integral but we need to ask ourselves how low/high does a random slice go in the y direction, keeping x constant. The answer to that is in the equation for y in terms of x. Then the bounds of the y-integral become 0 and that equation
+For constant (rectangular) bounds, Swapping the outer and inner integral retains the same value (because vol is same) but one route might be easier or harder (or impossible)
+For "dynamic" bounds, swapping does not retain value.
+Inner bounds can only be in terms of outer variables. 
+If your inner "dynamic" bounds are a piece-wise function, just split into sum of two integrals with same outer bounds.

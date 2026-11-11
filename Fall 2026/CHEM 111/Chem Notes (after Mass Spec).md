@@ -18,3 +18,5 @@
 
 - **McLafferty rearrangement:** requires an H on the **γ carbon** (three carbons from C=O). That H moves to O, the α–β bond breaks, and a neutral **alkene** is lost. The charge stays on the O-containing fragment (an enol radical cation).
 - **α cleavage:** the bond between the carbonyl C and the α carbon breaks, giving an alkyl radical plus a resonance-stabilized **acyl cation (R–C≡O⁺)**.
+
+
