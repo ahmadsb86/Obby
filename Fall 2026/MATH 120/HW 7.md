@@ -111,8 +111,9 @@ $$
 Now, we can subsitute the inner integral for this expression, and solve the full iterated integral
 $$
 \begin{align}
- &\int_{-a}^{a} \frac{a^{2}-x^{2}}{2} \, dx \\ \\
- =&\left[  \right]_{-a}^a \\
+ &\int_{-a}^{a} \frac{a^{2}}{2}-\frac{x^{2}}{2} \, dx \\
+ =&\left[ \frac{a^{2}x}{2} - \frac{x^{3}}{6} \right]_{-a}^a \\
+ =&\left[ \frac{a^{3}}{2}- \frac{a^{3}}{6} \right]  - \left<  \right> 
 
 \end{align}
 	
