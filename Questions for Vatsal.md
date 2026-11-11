@@ -17,19 +17,21 @@
 
 keep the argument for danger of factions. frontload that argument but ai is bad example
 
-for rousseau the legislator can be human it can be a group. it has to be godlike.
+for rousseau the legislator can be human it can be a group. it doesnt have to be one person. it has to be godlike, but still human.
 
-look at civil religion
+look at civil religion (in reference to the confusion)
 
-"design around"
+"design around" 
 
 place 
 
 pakistan minotiry - ahmed, shias, hindus: you can think about the question in does the pakistani constituion as a social contract guarantee freedom to them
+
+find yhr sbdytsvy mrsninh 
 
 
 add citation to natural freedom line
 
 for rousseau
 - go cifd g youf osn dncx
-- 
+- dont make 
