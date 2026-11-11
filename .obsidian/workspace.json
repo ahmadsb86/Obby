@@ -41,12 +41,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions for Vatsal.md",
+                "file": "Fall 2026/CHEM 111/chem fuckass pre notebook shit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Questions for Vatsal"
+              "title": "chem fuckass pre notebook shit"
+            }
+          },
+          {
+            "id": "12efbc1a89c883a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fall 2026/CHEM 111/Chem Notes (after Mass Spec).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chem Notes (after Mass Spec)"
+            }
+          },
+          {
+            "id": "ea3b1ae0f94814ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fall 2026/CHEM 111/chem fuckass pre notebook shit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "chem fuckass pre notebook shit"
             }
           },
           {
@@ -55,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2026/MATH 120/HW 6.md",
+                "file": "Fall 2026/MATH 120/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HW 6"
+              "title": "Untitled"
             }
           },
           {
@@ -78,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -248,22 +276,29 @@
       "cimu-print:Print note": false
     }
   },
-  "active": "fa758f30f467dd5a",
+  "active": "12efbc1a89c883a7",
   "lastOpenFiles": [
-    "Fall 2026/MATH 120/HW 6.md",
+    "Fall 2026/CHEM 111/chem fuckass pre notebook shit.md",
+    "Fall 2026/CHEM 111/Chem Notes (after Mass Spec).md",
+    "f.md",
+    "Untitled 1.md",
+    "Untitled 3.md",
+    "Untitled.canvas",
     "Untitled.md",
+    "Untitled 4.md",
     "Questions for Vatsal.md",
+    "Fall 2026/MATH 120/Untitled.md",
+    "Fall 2026/MATH 120/HW 6.md",
+    "Fall 2026/CS 231/HW 1.md",
+    "Planning/To-do.md",
+    "Planning/Internship Plan 2026-27.md",
     "Fall 2026/MATH 120/Project 1.md",
     "Fall 2026/MATH 120/Notes.md",
     "Fall 2026/CS 231/HW 4.md",
     "Fall 2026/CS 231/HW 3.md",
-    "Fall 2026/CS 231/HW 1.md",
-    "Planning/Internship Plan 2026-27.md",
     "Fall 2026/MATH 120/HW 5.md",
     "Planning/Untitled 1.md",
-    "Planning/To-do.md",
     "Planning/Internship Tracker.base",
-    "Untitled 4.md",
     "!attachments/Pasted image 20261105232754.png",
     "!attachments/Pasted image 20261105232020.png",
     "!attachments/Pasted image 20261105231824.png",
@@ -273,21 +308,14 @@
     "Planning/Fall Break Planning.md",
     "Planning/Stats 5.md",
     "Planning/Untitled.md",
-    "Untitled 3.md",
     "Untitled 2.md",
     "Fall 2026/MATH 120/HW 2.md",
-    "Fall 2026/MATH 120/Untitled.md",
     "6.851/Persistant Data Structures.md",
     "Fall 2026/CS 231/HW 1.pdf",
-    "Fall 2026/CS 231/HW 2.md",
     "!attachments/Screenshot 2026-10-28 at 3.42.18 PM.png",
     "!attachments/Screenshot 2026-10-28 at 3.31.58 PM.png",
     "!attachments/Screenshot 2026-10-28 at 3.14.32 PM.png",
     "!attachments/Screenshot 2026-10-28 at 2.39.00 PM.png",
-    "Planning/Drafting thoughts on AI and my academic trajectory.md",
-    "Planning/NVIDIA Ignite.md",
-    "HNSW/HNSW Frac Cascade Idea.md",
-    "Untitled.canvas",
     "Fall 2026/CHEM 111",
     "Fall 2026/MH HW",
     "Planning/Internships",
