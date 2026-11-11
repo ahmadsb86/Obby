@@ -27,11 +27,8 @@ place
 
 pakistan minotiry - ahmed, shias, hindus: you can think about the question in does the pakistani constituion as a social contract guarantee freedom to them
 
-find yhr sbdytsvy mrsninh 
-
+Find the abstract meaning from them
 
 add citation to natural freedom line
 
-for rousseau
-- go cifd g youf osn dncx
-- dont make 
+for rousseau, freedom is to direct your own ends
