@@ -115,7 +115,6 @@ $$
  =&\left[ \frac{a^{2}x}{2} - \frac{x^{3}}{6} \right]_{-a}^a \\
  =&\left[ \frac{a^{3}}{2}- \frac{a^{3}}{6} \right]  - \left[ -\frac{a^{3}}{2}- \frac{-a^{3}}{6} \right]  \\
  =& \frac{a^{3}}{2} - \frac{a^{3}}{6} +\frac{a^{3}}{2} -\frac{a^{3}}{6} \\
- =& \,a^{3}
+ =& \,a^{3} \\
 \end{align}
-	
 $$
