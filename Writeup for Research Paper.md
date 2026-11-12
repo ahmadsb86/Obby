@@ -13,6 +13,8 @@ Algorithm: Store each row in a group based on $d$. Initially keep all row indexe
 Complexity Analysis: For every $j_{1}$ in our sweep, we spend $O(\log n)$ time to run the predecessor query. Thus, the total time complexity for all predecessors queries is  $O(n \log n)$. Reading out the elements to delete from the $d$-groups takes $O(x)$ time, where $x$ is the number of rows to delete from $S$. The deletion of $x$ elements from $S$ takes $O(x \log n)$. However, every element is only read out from the $d$-groups once and only deleted once, so the total time complexity of all deletions is also $O(n \log n)$. Hence, our algorithm takes $O(n \log n)$.
 
 Fractional Cascading.
-Fractional Cascading yields the same bound 
+Fractional Cascading yields  
 
-$n (\log \log n + \frac{n}{\log n})$
+$$
+	n \left(  \log n + n  \right) 
+$$
