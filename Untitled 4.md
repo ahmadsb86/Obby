@@ -5,3 +5,5 @@ I feel like I've kind of lost the same drive I had before. I'm not sure why, but
 **Things to tell myself**
 Fuck academics
 Leave cricket after freshman
+work on mean get that shit done
+work on the hnsw thing for the quick publication 

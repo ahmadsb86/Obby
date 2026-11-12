@@ -113,8 +113,9 @@ $$
 \begin{align}
  &\int_{-a}^{a} \frac{a^{2}}{2}-\frac{x^{2}}{2} \, dx \\
  =&\left[ \frac{a^{2}x}{2} - \frac{x^{3}}{6} \right]_{-a}^a \\
- =&\left[ \frac{a^{3}}{2}- \frac{a^{3}}{6} \right]  - \left<  \right> 
-
+ =&\left[ \frac{a^{3}}{2}- \frac{a^{3}}{6} \right]  - \left[ -\frac{a^{3}}{2}- \frac{-a^{3}}{6} \right]  \\
+ =& \frac{a^{3}}{2} - \frac{a^{3}}{6} +\frac{a^{3}}{2} -\frac{a^{3}}{6} \\
+ =& \,a^{3}
 \end{align}
 	
 $$
