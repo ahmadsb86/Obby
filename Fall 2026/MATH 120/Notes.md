@@ -98,3 +98,14 @@ For constant (rectangular) bounds, Swapping the outer and inner integral retains
 For "dynamic" bounds, swapping does not retain value.
 Inner bounds can only be in terms of outer variables. 
 If your inner "dynamic" bounds are a piece-wise function, just split into sum of two integrals with same outer bounds.
+
+# Triple Integrals
+Triple integrals represent the "4D volume" under a 3d solid, but the only one in our syll is 
+$$
+\iiint_{R} 1 dxdydz = \text{volume of 3D region R of integration}
+$$
+Example: Find volume under $z=2+x+y$ above triangle $(0,0), (2,0), (2,3)$.
+$$
+	\int_{0}^{2} \int_{0}^{ \frac{3}{2}x } \int_{0}^{2+x+y} 1 \, dz  \, dy  \, dx 
+$$
+Compute volumes not from a space below a surface ew
