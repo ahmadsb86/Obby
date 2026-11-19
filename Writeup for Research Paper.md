@@ -1,10 +1,11 @@
-Some terminology I'll use:
+We are given a fixed column $j_{2}$, a , $O(1)$ access 
+
+Some terminology I'm going to use:
 1. $d$ is the distance between a $j_{2}$ column and the closest 0 left of that $j_{2}$ column.
 2. $k$ is the row index of the 0 value closest to the bottom of a certain column. 
+# $O(n\log n)$ Approaches:
 
-# Logarithmic Time Approaches:
-
-Balanced Binary Search Tree.
+First I'll discuss Balanced Binary Search Tree.
 
 The easiest logarithmic time approach is to simply use a balanced binary search tree that supports $O(\log n)$ deletion and $O(\log n)$ predecessor query. 
 
