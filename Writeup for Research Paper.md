@@ -1,11 +1,12 @@
 # Defining the Problem
 
-Consider an $n \times n$ grid system such that every row $i$ contains one horizontal ray of length $a_{i}$ ($0 < a_{i} \leq n)$ starting from the right-most column. Every column $j$ contains one query point at row $q_{j}$  ($0 \leq q_{j} < n)$.
+Consider an $n \times n$ grid system such that every row $i$ contains one horizontal ray of length $a_{i}$ ($0 < a_{i} \leq n)$ starting from the right-most column. Every column $j$ contains one query point at row $q_{j}$  ($0 \leq q_{j} < n)$. The rays are really just abstractions for the horizontal streaks of 1s and the query points are abstractions for the element below the lowest 0 in every column.
 
-Our goal is to create an algorithm that finds the horizontal ray directly below every query point (essentially vertical ray-casting). More specifically, for every $q_{j}$ our algorithm must find the highest row $r_{j}$ such that $r_{j} \geq q_{j}$ ($r_{j}$ is below $q_{j}$) and $a_{r_{j}} \geq j$ (the horizontal ray at $r_{j}$ reaches column $j$).
+The goal is to create an algorithm that finds the horizontal ray directly below every query point (essentially vertical ray-casting). More specifically, for every $q_{j}$ our algorithm must find the highest row $r_{j}$ such that $r_{j} \geq q_{j}$ ($r_{j}$ is below $q_{j}$) and $a_{r_{j}} \geq j$ (the horizontal ray at $r_{j}$ reaches column $j$). 
+
+The row $r_{j}$, column $j$, and the right-most column will form a "staple" shape of 1s. This assumes the right-most column only consists of 1s but that is okay because we can always discard all rows above the lowest 0 in the right-most column before running our algorithm.
 
 # $O(n\log n)$ approach - Balance Binary Search Tree:
-
 
 The easiest logarithmic time approach by far, in my opinion, is to simply use a balanced binary search tree that supports $O(\log n)$ deletion and $O(\log n)$ predecessor query. 
 
@@ -25,4 +26,36 @@ The same principle follows for a left-to-right sweep. In this, rows only ever be
 
 # $O(n\log n)$ approach - Fractional Cascading
 
-Fractional cascading also gives the same bo
+I haven't worked this out all the way since it seems like a far more complicated way to reach the same bound as BBST (and thus, probably not worth the effort), but fractional cascading seems like it could also work in $O(n \log n)$.
+
+A more detailed explanation of how it works can be found in the notes for lecture 3 and lecture 4 of MIT 6.851 *Advanced Data Structures*: https://courses.csail.mit.edu/6.851/spring12/lectures/
+
+
+# $O(n \log^2 n)$ approach - Order File Maintainance
+
+Similar to the BBST approach but swap out BBST with an OFM structure. These are essentially sparse arrays which store elements in order with guaranteed $O(1)$-sized gaps between elements but $O(\log ^{2} n)$ amortized update time complexity.  OFM is surprisingly pretty easy to implement, and most of the juice comes from the interesting amortization argument.
+
+A detailed explanation of how it works can be found in the notes for lecture 8 of MIT 6.851: https://courses.csail.mit.edu/6.851/spring12/lectures/
+
+Attached here are my personal notes from the class relevant to how OFM works (although it is probably infuriatingly difficult to read).
+
+> Split array in chunks of $\log N$. Each chunk is a leaf of conceptual bintree. To update, we update chunk then travel up the tree till we see a node whose interval is within density threshold (DT). Then uniformly distribute elms in that node's interval
+> 
+> DT is between $1/4$ and $1$ for leaf nodes and between $1/2$ and $3/4$ for root and linerp'ed for intermediates. 
+> 
+> Done. Analysis. For an intermediate node, when we redistribute, our children fall WELL within thresh (since their DT bounds are looser than even us). Specifically their density must be additive $\frac{1}{4h}$ distance to threshold or $\frac{1}{4h} \cdot s$ updates away from thresh where $s$ is size of interval.  
+> 
+> Redistribution costs $s$. Attribute to $\frac{1}{4h} \cdot s$ updates till then seemingly brings amortization to $\frac{1}{4h} = O(\log N)$ but we are overcharging by $\log N$ factor since each update to a chunk is being charged by all its $\log N$ ancestors $\implies$ total amortized  is $O(\log ^{2} N)$  
+> 
+> gap size is $O(1)$ since redist sets gap size to $O(1)$ and subsequent inserts till next redist only reduce gap size.
+
+# $O(n)$ approach - Rank/Select Inspired Indirection 
+
+This approach takes inspiration from a succinct rank/select algorithm discussed in lecture 17 of MIT 6.851. That lecture 
+
+Recall that if we do our sweep from left-to-right, rays only ever become active. Another way to think about this is that whenever we step to the next column over, a new ray can slice the gap between two previously active rays. Importantly, however, a gap will never have to merge with another gap throughout the sweeping process.
+
+This means we can relatively easily label each row with the gap that exists above it.  During our sweep, when a new ray slices a gap, the gap is split into two parts. We can relabel all the rows in the smaller half.
+
+Insert image
+
