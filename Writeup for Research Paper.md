@@ -4,6 +4,8 @@ Consider an $n \times n$ grid system such that every row $i$ contains one horizo
 
 The goal is to create an algorithm that finds the horizontal ray directly below every query point (essentially vertical ray-casting). More specifically, for every $q_{j}$ our algorithm must find the highest row $r_{j}$ such that $r_{j} \geq q_{j}$ ($r_{j}$ is below $q_{j}$) and $a_{r_{j}} \geq j$ (the horizontal ray at $r_{j}$ reaches column $j$). 
 
+![[Pasted image 20261119031425.png|347]]
+
 The row $r_{j}$, column $j$, and the right-most column will form a "staple" shape of 1s. This assumes the right-most column only consists of 1s but that is okay because we can always discard all rows above the lowest 0 in the right-most column before running our algorithm.
 
 # $O(n\log n)$ approach - Balance Binary Search Tree:
@@ -57,21 +59,19 @@ Recall that if we do our sweep from left-to-right, rays only ever become active.
 
 This means we can relatively easily label each row with the gap that exists above it.   During our sweep, when a new ray slices a gap, the gap is split into two parts. We can relabel all the rows in the smaller half. 
 
+![[Pasted image 20261119032121.png]]
+
 If we create a map that stores the row under every gap, then queries are easy to answer. When we are column $j$, we can answer query $q_{j}$ by checking the gap that $q_{j}$ falls within. Then we can use the map to find the ray under that gap, and thus our answer for $q_{j}$.
 
 Every ray can only slice a gap once, and in the worst case every ray slices a gap in half. This means in total, the worst case is the first ray slices a gap of size $n$, the second ray slices a gap of size $\frac{n}{2}$, the third slices a gap of size $\frac{n}{4}$, etc. Thus, the total time complexity for relabelling is $O(n \log n)$. 
 
-To remove the log factor, we can use a similar indirection trick to the aforementioned rank/select algorithm. We split the rows into blocks of size $b=\frac{1}{2} \log n$. Then, we change the algorithm explained to span blocks instead of individual rows. A block is active if it contains at least one active row, and whole blocks get relabelled instead of rows. Now the relabelling time complexity (excluding work done within a block) is $$O\left( \frac{n}{b} \log n \right) = O\left(\frac{n}{0.5\log n} \log n\right) = O(n)$$
-All that remains is to figure out how to handle inserting rows and processing queries within a block in $O(1)$.
+To remove the log factor, we can use a similar indirection trick to the aforementioned rank/select algorithm. We split the rows into blocks of size $b=\frac{1}{2} \log n$. Then, we change the algorithm explained to span blocks instead of individual rows. A block is active if it contains at least one active row, and whole blocks get relabelled instead of rows. Now the relabelling time complexity (excluding work done within a block) is $$O\left( \frac{n}{b} \log n \right) = O\left(\frac{n}{0.5\log n} \log n\right) = O(n)$$All that remains is to figure out how to handle inserting rows and processing queries within a block in $O(1)$.
 
-Within each block we can keep a bit-vector of size $b=\frac{1}{2}\log n$ where every bit $i$ represents whether the row $i$ within the bit-vector is active. Making a row active within a block is clearly $O(1)$ since we just need to turn on that specific bit. But how can we do predecssor in $O(1)$ to answer queries in $O(1)$? 
+Within each block we can keep a bit-vector of size $b=\frac{1}{2}\log n$ where every bit $i$ represents whether the row $i$ within the bit-vector is active. Making a row active within a block is clearly $O(1)$ since we just need to turn on that specific bit. But how can we do predecessor in $O(1)$ to answer queries in $O(1)$? 
 
-Notice that since $b=\frac{1}{2}\log n$, there are at most $\sqrt{ n }$ unique bit-vectors. We can just precompute the lowest set bit queries for every one of these in $O(\sqrt{ n })$ time which is negligible. Then, finding the predecessor 1 in a bit-vector of size $b$ comes down to masking all the bits that succeed our query and comparing to the 
+Notice that since $b=\frac{1}{2}\log n$, there are at most $\sqrt{ n }$ unique bit-vectors. We can just precompute the lowest set bit queries for every one of these in $O(\sqrt{ n })$ time which is negligible. Then, finding the predecessor 1 in a bit-vector of size $b$ comes down to masking all the bits that succeed our query and using the precomputed lookup. Of course, the masking takes $O\left( \frac{b}{w} \right)$ where $w$ is the machine word size, but in the word ram model we can assume $w>\log n$ and thus $O\left( \frac{b}{w} \right)=O(1)$. We don't even need $w>\log n$. As long as $\frac{\log n}{w} = O(1)$, we are good.
 
-Answering a query now takes three steps. 
-1. Look inside query row's own block. Take its mask, clear the bits for rows above row 3, and ask whether any bit remains.
-2. If none remains, as here, ask the block-level gap records for the next active block. Block 1 is in the gap covering blocks 1–2, so the next active block is block 3.
-3. Take the lowest set bit of block 3’s mask, which gives row 13.
-
-Insert image
-
+Answering a query now takes three steps, all in $O(1)$
+1. Look inside query row's own block. Take its mask, clear the bits for rows above row query row, and ask whether any bit remains.
+2. If none remains, ask the block-level gap records for the next active block.
+3. Take the lowest set bit of this block’s mask,
