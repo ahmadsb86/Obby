@@ -19,3 +19,8 @@ Fractional Cascading yields
 $$
 	n \left(  \log n + n  \right) 
 $$
+
+
+Defining the Problem
+
+Consider a grid system  horizontal ray of varying length in eveyr row

@@ -49,7 +49,8 @@
               "title": "claude settings"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,12 +220,12 @@
       "cimu-print:Print note": false
     }
   },
-  "active": "ea3b1ae0f94814ae",
+  "active": "a5aa05e62fe5f1b6",
   "lastOpenFiles": [
+    "Fall 2026/MATH 120/Notes.md",
     "Writeup for Research Paper.md",
     "claude settings.md",
     "Fall 2026/MATH 120/Untitled 1.md",
-    "Fall 2026/MATH 120/Notes.md",
     "6.851/Memory Hierarchy Models 2.md",
     "6.851/Memory Hiearchy Models.md",
     "6.851/Non-adaptive Pred Lower Bound.md",
