@@ -52,18 +52,16 @@ Desmos shows that the value of this integral is about 7.74284979756
 
 # Problem 3
 
-a) Let us consider the triangle face on the positive x side. The coordinates of the vertex are $(0,0,140)$ as mentioned in the question. Since the total length of the square base is 230 and the square is centered at (0,0,0), it must follow that the two points are at (115,115,0) and $(115,-115,0)$.  Now let's find two vectors that lie on top of the plane by subtracting any two points on the plane.
+a) Let us consider the triangle face on the positive x side. The coordinates of the vertex are $(0,0,140)$ as mentioned in the question. Since the total length of the square base is 230 and the square is centered at (0,0,0), it must follow that the two points are at (115,115,0) and $(115,-115,0)$.  
 
-$$
-\begin{align}
- & (115,115,0) - (0,0,140) = (115,115,-140) \\
- & (115,-115,0) - (0,0,140) = (115,-115,-140)
-\end{align}
-$$
-
-Now if we cross these two, we will get a vector that is perpendicular to both of them. Since these lie on the triangular face in consideration, the cross product must give us a vector normal to the face. 
+When we look at this plane, the z value remains the same as you sweep values of y. Therefore, our equation for the plan in terms of z must not contain the variable y. Since it is a flat plane (not a curved surface), this means the expression must be of the form $z = a + bx$. At $x=0$, the z-value of the curve is $140$. Thus, $a=140$. At x= 115, z = 0. Therefore, 
 $$
 	\begin{align}
-	& (115,115,-140) cross
+	& z = 140 + bx \\
+	& 0 = 140 + b(115) \\
+	& b = -\frac{140}{115} \approx -1.2173913043 \\
+	& \therefore  z = 140 -\frac{140}{115}x
 	\end{align}
 $$
+
+b) To find the volume of one quarter of the pyramid we notice that 
