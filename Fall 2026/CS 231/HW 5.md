@@ -40,7 +40,7 @@ Therefore, there are $15$ different partitions of $S$.
 
 # Problem 3
 
-Let $P(n)$ denote the statement $r_{n} = 7\cdot r_{n-1} - 10 \cdot r_{k-2}$
+Let $P(n)$ denote the statement $r_{n} = 3 \cdot 2^{n} + 2 \cdot 5^{n}$
 
 **Claim:**
 $\forall n \in \mathbb{N}\ \text{, } P(n)$
@@ -49,8 +49,23 @@ $\forall n \in \mathbb{N}\ \text{, } P(n)$
 $r_{0} = 5$
 $r_{0} = 3 \cdot 2^{0} + 2 \cdot 5^{0} = 5 \quad \checkmark$
 $r_{1} = 16$
-$r_{0} = 3 \cdot 2^{1} + 2 \cdot 5^{1} = 15 \quad \checkmark$
+$r_{1} = 3 \cdot 2^{1} + 2 \cdot 5^{1} = 16 \quad \checkmark$
 
 
 **Inductive Step:**
-Towards a proof by induction, suppose that $P(k)$ holds for all $k \in [0,k]$. From this we will prove $P(k+1)$.
+Towards a proof by induction, suppose that $P(k)$ holds for all $k \in [0,n]$. From this we will prove $P(n+1)$.
+
+From the definition of $r$, we have:
+$r_{n+1} = 7\cdot r_{n} - 10 \cdot r_{n-1}$
+Since $P(n)$ and $P(n-1)$, we have
+$r_{n} = 3 \cdot 2^{n} + 2 \cdot 5^{n}$ and $r_{n-1} = 3 \cdot 2^{n-1} + 2 \cdot 5^{n-1}$
+Plugging these two expressions back into the previous equation, we have:
+$$
+\begin{align}
+r_{n+1} &= 7 \cdot (3 \cdot 2^{n} + 2 \cdot 5^{n}) - 10 \cdot (3 \cdot 2^{n-1} + 2 \cdot 5^{n-1}) \\
+& = 21 \cdot 2^{n} + 14 \cdot 5^{n} - 30 \cdot 2^{n-1} - 20 \cdot 5^{n-1} \\
+&= 21 \cdot 2^{n} - 30 \cdot 2^{n-1} + 14 \cdot 5^{n} - 20 \cdot 5^{n-1} \\
+&= 21 \cdot 2^{n} - 15 \cdot 2^{n} + 14 \cdot 5^{n} - 4 \cdot 5^{n} \\
+&= 5 \cdot 2^{n} + 10 \cdot 5^{n}
+\end{align}
+$$
