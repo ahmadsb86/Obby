@@ -64,4 +64,18 @@ $$
 	\end{align}
 $$
 
-b) To find the volume of one quarter of the pyramid we notice that 
+b) Firstly, the base of any "quarter" of the pyramid is also a triangle. It has a vertex at $(0,0,0)$ and also at two corners of the larger pyramids square base. For the quarter associated with my result in (a), the quarter base is the triangle between $(0,0,0)$, $(115,-115,0)$, and $(115,115,0)$. The line equation between $(0,0,0)$ and $(115,115,0)$ is just $y=x$ and the line equation between $(0,0,0)$ and $(115,-115,0)$ is just $y = -x$
+
+Thus, our x bounds should span $x=0$ to $x=115$, and our $y$ bound should span $y=-x$ to $y=x$. The integrand should be the z-equation which is $z = 140-\frac{140}{115}x$.
+
+From this, we have,
+$$
+	\begin{align}
+	 & \int_{0}^{115} \int_{-x}^{x} \left( 140-\frac{140}{115}x  \right)  \, dy  \, dx  \\
+	 & =\int_{0}^{115}  \, dx  \\
+	 & = 617166.666667 \\
+	 &  \\
+	 & 4 \cdot 617166.666667 = 2,468,666.67
+	\end{align}
+$$
+The total volume is $2,468,666.67$
