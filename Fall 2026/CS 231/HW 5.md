@@ -18,12 +18,39 @@ Since both of these methods count the same thing, it must follow that
 $$2^{n}=\sum_{i=1}^{n} \binom{n}{i}$$
 # Problem 2
 
-Every partition of $S$ must "draw a line" between two elements such that elements to the left of that line exist in a separate partition from the elements on the right. To find the number of different partitions of $S$, we simply need to find how many such lines can be drawn. 
+The partitions of $S$ are:
 
-The cardinality of $S$ is 4, so the number of possible lines between two elements must be $3$. Every partitioning of $S$ is essentially a subset of these three possible partition lines. As discussed in problem 1, the number of such subsets would just be $2^{3}$.
+1. $\{\{2,3,5,7\}\}$
+2. $\{\{2\},\{3,5,7\}\}$
+3. $\{\{3\},\{2,5,7\}\}$
+4. $\{\{5\},\{2,3,7\}\}$
+5. $\{\{7\},\{2,3,5\}\}$
+6. $\{\{2,3\},\{5,7\}\}$
+7. $\{\{2,5\},\{3,7\}\}$
+8. $\{\{2,7\},\{3,5\}\}$
+9. $\{\{2,3\},\{5\},\{7\}\}$
+10. $\{\{2,5\},\{3\},\{7\}\}$
+11. $\{\{2,7\},\{3\},\{5\}\}$
+12. $\{\{3,5\},\{2\},\{7\}\}$
+13. $\{\{3,7\},\{2\},\{5\}\}$
+14. $\{\{5,7\},\{2\},\{3\}\}$
+15. $\{\{2\},\{3\},\{5\},\{7\}\}$
 
-Therefore, there are $2^{3}=8$ different partitions
-
+Therefore, there are $15$ different partitions of $S$.
 
 # Problem 3
 
+Let $P(n)$ denote the statement $r_{n} = 7\cdot r_{n-1} - 10 \cdot r_{k-2}$
+
+**Claim:**
+$\forall n \in \mathbb{N}\ \text{, } P(n)$
+
+**Base Case:**
+$r_{0} = 5$
+$r_{0} = 3 \cdot 2^{0} + 2 \cdot 5^{0} = 5 \quad \checkmark$
+$r_{1} = 16$
+$r_{0} = 3 \cdot 2^{1} + 2 \cdot 5^{1} = 15 \quad \checkmark$
+
+
+**Inductive Step:**
+Towards a proof by induction, suppose that $P(k)$ holds for all $k \in [0,k]$. From this we will prove $P(k+1)$.
