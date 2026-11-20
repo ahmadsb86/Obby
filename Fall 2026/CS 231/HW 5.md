@@ -66,6 +66,10 @@ r_{n+1} &= 7 \cdot (3 \cdot 2^{n} + 2 \cdot 5^{n}) - 10 \cdot (3 \cdot 2^{n-1} +
 & = 21 \cdot 2^{n} + 14 \cdot 5^{n} - 30 \cdot 2^{n-1} - 20 \cdot 5^{n-1} \\
 &= 21 \cdot 2^{n} - 30 \cdot 2^{n-1} + 14 \cdot 5^{n} - 20 \cdot 5^{n-1} \\
 &= 21 \cdot 2^{n} - 15 \cdot 2^{n} + 14 \cdot 5^{n} - 4 \cdot 5^{n} \\
-&= 5 \cdot 2^{n} + 10 \cdot 5^{n}
+&= 6 \cdot 2^{n} + 10 \cdot 5^{n} \\
+&= 3 \cdot (2 \cdot 2^{n}) + 2(5 \cdot 5^{n}) \\
+&= 3 \cdot (2^{n+1}) + 2 \cdot (5^{n+1}) \\
+& \therefore P(n+1)
 \end{align}
 $$
+Therefore, $P(n-1) \land P(n) \implies P(n+1)$. Hence, by the principle of strong mathematical induction, $\forall n \in \mathbb{N} \text{, } P(n)$.
