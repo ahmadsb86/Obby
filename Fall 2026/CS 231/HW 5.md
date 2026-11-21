@@ -72,4 +72,30 @@ r_{n+1} &= 7 \cdot (3 \cdot 2^{n} + 2 \cdot 5^{n}) - 10 \cdot (3 \cdot 2^{n-1} +
 & \therefore P(n+1)
 \end{align}
 $$
-Therefore, $P(n-1) \land P(n) \implies P(n+1)$. Hence, by the principle of strong mathematical induction, $\forall n \in \mathbb{N} \text{, } P(n)$.
+Therefore, $P(n-1) \land P(n) \implies P(n+1)$ and also $P(0) \land P(1)$. Hence, by the principle of strong mathematical induction, $\forall n \in \mathbb{N} \text{, } P(n)$.
+
+# Problem 4
+
+i) Each of the three letters can be chosen in $26$ ways and each of the three digits can be chosen in $10$ ways. Since these choices are independent, we can use the product rule.
+$$26^{3} \cdot 10^{3} = 17576 \cdot 1000 = 17{,}576{,}000$$
+
+ii) Now each choice reduces the option space for the next one. There are $26$ options for the first letter, $25$ for the second, and $24$ for the third. There are $10$, $9$, and $8$ options for the digits. By the product rule,
+$$(26 \cdot 25 \cdot 24)(10 \cdot 9 \cdot 8) = 15600 \cdot 720 = 11{,}232{,}000$$
+
+iii) I'll count the complement of each condition separately. The number of letter strings with at least one H is the total number of letter strings minus those with no H at all:
+$$26^{3} - 25^{3} = 17576 - 15625 = 1951$$
+Similarly, the number of digit strings with at least one 4 is
+$$10^{3} - 9^{3} = 1000 - 729 = 271$$
+The letters and the digits are chosen independently so we can use the product rule.
+$$1951 \cdot 271 = 528{,}721$$
+
+# Problem 5
+
+Let $f(x,y) = (u,v)$, so that
+$$u = x + y + 1 \quad \text{and} \quad v = x - y$$
+To find the inverse, we solve for $x$ and $y$ in terms of $u$ and $v$. Adding the two equations gives
+$$u + v = 2x + 1 \implies x = \frac{u + v - 1}{2}$$
+Subtracting the second from the first gives
+$$u - v = 2y + 1 \implies y = \frac{u - v - 1}{2}$$
+So we define $g : \mathbb{R} \times \mathbb{R} \to \mathbb{R} \times \mathbb{R}$ by
+$$g(x,y) = \left( \frac{x + y - 1}{2},\ \frac{x - y - 1}{2} \right)$$
